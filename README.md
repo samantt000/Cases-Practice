@@ -5,7 +5,7 @@
 | Кейс | Тема | Папка | Статус |
 |---|---|---|---|
 | 1 | Поиск аномалий в журнале заявок на закупку | [`case-1-anomaly-detection`](case-1-anomaly-detection/) | готов |
-| 2 | Восстановление процесса по журналу событий | [`case-2-process-recovery`](case-2-process-recovery/) | заполнить |
+| 2 | Восстановление процесса по журналу событий | [`case-2-process-recovery`](case-2-process-recovery/) | готов |
 | 3 | Продуктовые гипотезы для подписочного мобильного сервиса | [`case-3-product-hypotheses`](case-3-product-hypotheses/) | заполнить |
 
 ## Структура
@@ -20,6 +20,13 @@
 │   ├── data/students.csv        # исходный журнал (синтетические данные)
 │   └── report/report.tex        # краткий отчёт (LaTeX)
 ├── case-2-process-recovery/
+│   ├── README.md
+│   ├── process_discovery.ipynb  # ноутбук (Google Colab)
+│   ├── variants.csv             # таблица вариантов
+│   ├── student_transitions.csv  # переходы между активностями
+│   ├── data/students.csv        # исходный журнал
+│   ├── schema/                  # схема (draw.io + png)
+│   └── report/report.tex        # краткий отчёт (LaTeX)
 └── case-3-product-hypotheses/
 ```
 
